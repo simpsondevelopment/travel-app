@@ -4,15 +4,15 @@ const { width } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   card: {
-    marginRight: 16,
+    marginBottom: 12,
     padding: 4,
-    borderWidth: 4,
+    borderWidth: 1,
     borderColor: "#E2E2E2",
     borderRadius: 15,
   },
   image: {
     width: (width - 96) / 2,
-    height: 100,
+    height: 120,
     borderRadius: 15,
   },
   title: {
@@ -22,19 +22,19 @@ const styles = StyleSheet.create({
     marginLeft: 6,
   },
   subtitle: {
-    fontSize: 8,
+    fontSize: 10,
     fontWeight: "300",
 
     color: "rgba(0,0,0,0.5)",
   },
   icon: {
-    width: 8,
-    height: 8,
-    marginRight: 4,
+    width: 10,
+    height: 10,
+    marginRight: 6,
   },
   iconSubContainer: {
     flexDirection: "row",
-    marginTop: 2,
+    marginTop: 4,
     marginLeft: 6,
     marginBottom: 12,
 
